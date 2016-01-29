@@ -1,8 +1,8 @@
 {
   "name": "projectTemplate",
   "version": "1.0.0",
-  "description": "## By Alicia Poindexter",
-  "main": "main.js",
+  "description": "Express/Mongo project template",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",

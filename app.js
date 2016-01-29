@@ -19,12 +19,12 @@ mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://localhost/[ENTER_PROJECT
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
-app.use(morgan('dev'));
+app.use(logger('dev'));
 app.use(bodyParser.urlencoded( {extended: true} ));
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
-app.use('/', require('./routes/[ENTER_ROUTE_NAME_HERE]');
+app.use('/', require('./routes/index'));
 
 // 404 handler
 app.get(function(req, res) {
