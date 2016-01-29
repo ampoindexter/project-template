@@ -6,7 +6,7 @@
     "node": "4.2.4"
   },
   "scripts": {
-    "setup": "rm -rf node_modules public/bower_components && npm i && bower i",
+    "setup": "npm i && bower i",
     "start": "node app.js",
     "postinstall": "bower i"
   },
