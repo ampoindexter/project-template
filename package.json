@@ -4,7 +4,7 @@
   "description": "Express/Mongo project template",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "rm -rf node_modules public/lib && npm i && bower i",
     "start": "node app.js",
     "postinstall": "bower i"
   },
